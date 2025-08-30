@@ -1,0 +1,10 @@
+curl -X POST https://api.example.com/students \
+-H "Content-Type: application/json" \
+-d '{
+  "student_id": 1,
+  "first_name": "John",
+  "last_name": "Doe",
+  "age": 18,
+  "enrollment_date": "2025-08-30",
+  "emailid": "john.doe@example.com"
+}'
