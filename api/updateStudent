@@ -1,0 +1,5 @@
+curl -X PUT https://api.example.com/students/1 \
+-H "Content-Type: application/json" \
+-d '{
+  "emailid": "john.newemail@example.com"
+}'
